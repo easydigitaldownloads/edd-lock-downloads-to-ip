@@ -6,6 +6,8 @@ Description: An extension for Easy Digital Downloads to lock file downloads to t
 Author: Pippin Williamson
 Version: 1.0
 Author URI: http://pippinsplugins.com
+Text Domain: edd-iplock
+Domain Path: languages
 */
 
 class EDD_Lock_Downloads_To_IP {
