@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-16 16:21+0100\n"
+"PO-Revision-Date: 2013-03-16 16:24+0100\n"
+"Last-Translator: FxB <traductions@fxbenard.com>\n"
+"Language-Team: FxB <fx@fxbenard.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_n;"
+"_x;_n:1,2;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ edd
+#: edd-lock-downloads-to-ip.php:64
+msgid ""
+"You do not have permission to download this file because your IP address "
+"doesn't match our records."
+msgstr ""
+"Vous n'avez pas la permission de télécharger ce fichier parce que votre "
+"adresse IP ne correspond pas à nos données."
+
+# @ edd
+#: edd-lock-downloads-to-ip.php:64
+msgid "Error"
+msgstr "Erreur"
+
+# @ edd
+#: languages/strings.php:15
+msgid "Easy Digital Downloads - Lock Downloads to IP"
+msgstr "Easy Digital Downloads - Lock Downloads to IP"
+
+#: languages/strings.php:16
+msgid ""
+"An extension for Easy Digital Downloads to lock file downloads to the IP "
+"address used to purchase the file"
+msgstr ""
+"Une extension pour Easy Digital Downloads pour verrouiller le téléchargement "
+"avec l'adresse IP utilisée pour acheter le fichier"
+
+#: languages/strings.php:17
+msgid "Pippin Williamson"
+msgstr "Pippin Williamson"

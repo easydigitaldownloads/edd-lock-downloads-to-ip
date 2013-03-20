@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-16 16:20+0100\n"
+"PO-Revision-Date: 2013-03-16 16:20+0100\n"
+"Last-Translator: FxB <traductions@fxbenard.com>\n"
+"Language-Team: Easy Digital Downloads <pippin@pippinsplugins.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: edd-lock-downloads-to-ip.php:64
+msgid ""
+"You do not have permission to download this file because your IP address "
+"doesn't match our records."
+msgstr ""
+
+#: edd-lock-downloads-to-ip.php:64
+msgid "Error"
+msgstr ""
+
+#: languages/strings.php:15
+msgid "Easy Digital Downloads - Lock Downloads to IP"
+msgstr ""
+
+#: languages/strings.php:16
+msgid ""
+"An extension for Easy Digital Downloads to lock file downloads to the IP "
+"address used to purchase the file"
+msgstr ""
+
+#: languages/strings.php:17
+msgid "Pippin Williamson"
+msgstr ""
