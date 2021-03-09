@@ -60,9 +60,12 @@ class EDD_Lock_Downloads_To_IP {
 			return;
 		}
 
+		$order = false;
 		if ( function_exists( 'edd_get_order' ) ) {
 			$order = edd_get_order( $payment_id );
-			$ip    = $order->ip;
+		}
+		if ( ! empty( $order ) ) {
+			$ip = $order->ip;
 		} else {
 			$ip = edd_get_payment_meta( $payment_id, '_edd_payment_user_ip' );
 		}
