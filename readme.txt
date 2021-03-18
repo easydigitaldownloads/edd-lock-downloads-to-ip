@@ -22,7 +22,7 @@ The primary purpose of this extension is to prevent users from sharing file down
 
 == Changelog ==
 
-= 1.0.1 -
+= 1.0.1 =
 
 * Dev: Compatibility with EDD 3.0.
 * Tweak: Update plugin author name to Sandhills Development, LLC.
