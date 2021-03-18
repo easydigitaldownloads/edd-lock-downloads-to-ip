@@ -1,14 +1,14 @@
 <?php
-/*
-Plugin Name: Easy Digital Downloads - Lock Downloads to IP
-Plugin URI: https://easydigitaldownloads.com/downloads/lock-downloads-to-ip/
-Description: An extension for Easy Digital Downloads to lock file downloads to the IP address used to purchase the file
-Author: Sandhills Development, LLC
-Version: 1.0
-Author URI: https://sandhillsdev.com
-Text Domain: edd-iplock
-Domain Path: languages
-*/
+/**
+ * Plugin Name: Easy Digital Downloads - Lock Downloads to IP
+ * Plugin URI: https://easydigitaldownloads.com/downloads/lock-downloads-to-ip/
+ * Description: An extension for Easy Digital Downloads to lock file downloads to the IP address used to purchase the file
+ * Author: Sandhills Development, LLC
+ * Version: 1.0.1
+ * Author URI: https://sandhillsdev.com
+ * Text Domain: edd-iplock
+ * Domain Path: languages
+ */
 
 class EDD_Lock_Downloads_To_IP {
 

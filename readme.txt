@@ -3,7 +3,7 @@ Contributors: easydigitaldownloads, mordauk
 Tags: Easy Digital Downloads, EDD, IP address, downloads, file download
 Requires at least: 3.3
 Tested up to: 5.7
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,6 +21,11 @@ The primary purpose of this extension is to prevent users from sharing file down
 2. Activate Easy Digital Downloads - Lock Downloads to IP.
 
 == Changelog ==
+
+= 1.0.1 -
+
+* Dev: Compatibility with EDD 3.0.
+* Tweak: Update plugin author name to Sandhills Development, LLC.
 
 = 1.0 =
 
