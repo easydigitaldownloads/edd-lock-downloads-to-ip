@@ -51,19 +51,28 @@ class EDD_Lock_Downloads_To_IP {
 	public function check_ip( $download_id = 0, $email = 0 ) {
 
 		$payment_key = isset( $_GET['download_key'] ) ? urldecode( $_GET['download_key'] ) : false;
-		if( empty( $payment_key ) )
+		if ( empty( $payment_key ) ) {
 			return;
+		}
 
 		$payment_id = edd_get_purchase_id_by_key( $payment_key );
-		if( empty( $payment_id ) )
+		if ( empty( $payment_id ) ) {
 			return;
+		}
 
-		$payment_ip = get_post_meta( $payment_id, '_edd_payment_user_ip', true );
+		$order = false;
+		if ( function_exists( 'edd_get_order' ) ) {
+			$order = edd_get_order( $payment_id );
+		}
+		if ( ! empty( $order ) ) {
+			$ip = $order->ip;
+		} else {
+			$ip = edd_get_payment_meta( $payment_id, '_edd_payment_user_ip' );
+		}
 
-		if( $payment_ip !== edd_get_ip() )
-			wp_die( __( 'You do not have permission to download this file because your IP address doesn\'t match our records.', 'edd-iplock' ), __( 'Error', 'edd-iplock' ) );
-
-
+		if ( $ip !== edd_get_ip() ) {
+			wp_die( esc_html__( 'You do not have permission to download this file because your IP address doesn\'t match our records.', 'edd-iplock' ), esc_html__( 'Error', 'edd-iplock' ) );
+		}
 	}
 
 }
